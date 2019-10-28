@@ -13,4 +13,6 @@ public interface StudentService {
     void deleteStudent(Student student);
 
     Student getStudent(Long id);
+
+    Boolean existsById(Long id);
 }

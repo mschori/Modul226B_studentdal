@@ -4,23 +4,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Create Location</title>
+<title>Students</title>
 </head>
 <body>
 
-<form action="saveStudent" method="">
+<form action="/saveStudent" method="post">
 
-Id: <input type="text" name="id"/>
-Code: <input type="text" name="code"/>
 Name: <input type="text" name="name"/>
-Type: Urban <input type="radio" name="type" value="URBAN"/>
-	Rural <input type="radio" name="type" value="RURAL"/>
-<input type="submit" value="save"/>
+Course: <input type="text" name="course"/>
+Fee: <input type="text" name="fee"/>
+
+    <buttons type="submit">save</buttons>
 
 </form>
 
-
-<a href="displayLocations">View All</a>
+<a href="listStudents">View All</a>
 
 </body>
 </html>
